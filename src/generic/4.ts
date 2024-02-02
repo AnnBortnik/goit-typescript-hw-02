@@ -7,7 +7,7 @@ interface IProps {
 }
 
 
-class Component<T extends IProps> {
+class Component<T> {
   constructor (public props:T) {}
 }
 
